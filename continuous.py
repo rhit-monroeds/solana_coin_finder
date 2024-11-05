@@ -14,14 +14,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler
 
 app = Flask(__name__)
 
-# latest version but it breaks on second run
-
-# TODO
-# track a specific wallet and sell when they do
-# different version where keep a list of wallets that have transfered for past 24 hours and check them all for purchases in the past 1-4 hours
-# send telegram message to start/end remotely, will have to run perpetually and is just idle until the message is sent
-# add a button that displays all the insider wallets of the token when you click it
-
 # Constants
 CAT = "ACTIVITY_SPL_TRANSFER"
 CPGS = 100
